@@ -16,7 +16,7 @@ jobs:
     - name: Setup Java JDK
       uses: actions/setup-java@v3.9.0
       with: 
-        java-version: 8
+        java-version: 11
         distribution: temurin
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
